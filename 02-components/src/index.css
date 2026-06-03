@@ -1,0 +1,14 @@
+.navbar{
+  background-color:beige;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.card{
+  background-color:blueviolet;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 50%;
+  display: inline-block;
+}
