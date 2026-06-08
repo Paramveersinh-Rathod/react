@@ -3,12 +3,11 @@ import JobCard from './JobCard'
 
 const JobList = (props) => {
   let jobCards = props.jobCards;
-  console.log(jobCards)
   return (
     <div className='JobList'>
-      {jobCards.map(function(card) {
-        return <JobCard props = {card}/>
-      })};
+      {jobCards.map(function(card, idx) {
+        return <JobCard key={idx} props = {card}/>
+      })}
     </div>
   )
 }
